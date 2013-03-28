@@ -130,6 +130,8 @@ body {
     color: #000;
     margin: 0;
     padding: 0;
+    background: url("subtle_dots.png") repeat;
+
 }
 
 div.document {

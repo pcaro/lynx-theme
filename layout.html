@@ -1,5 +1,9 @@
 {%- extends "basic/layout.html" %}
 
+{%- block extrahead -%}
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic,600italic|Source+Code+Pro' rel='stylesheet' type='text/css'>
+{%- endblock -%}
+
 {% block relbar2 %}
     {% if theme_github_fork %}
         <a class="fork" href="http://github.com/{{ theme_github_fork }}">
