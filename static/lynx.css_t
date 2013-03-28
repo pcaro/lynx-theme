@@ -367,6 +367,101 @@ div.viewcode-block:target {
 pre, tt {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 0.9em;
+    font-style: normal;
+    letter-spacing: 0.015em;
+    line-height: 120%;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.literal {
+    color:#378D55;
+}
+
+pre a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+td.linenos pre {
+    padding: 0.5em 0;
+}
+
+
+div.admonition {
+    font-size: 0.9em;
+    margin: 1em 0 1em 0;
+    background-color: #fdfdfd;
+    padding: 0;
+    -moz-box-shadow: 0px 8px 6px -8px #d6d6d6;
+    -webkit-box-shadow: 0px 8px 6px -8px #d6d6d6;
+    box-shadow: 0px 8px 6px -8px #d6d6d6;
+}
+
+div.admonition p {
+    margin: 0.5em 1em 0.5em 1em;
+    padding: 0.2em;
+}
+
+div.admonition pre {
+    margin: 0.4em 1em 0.4em 1em;
+}
+
+div.admonition p.admonition-title
+{
+    margin: 0;
+    padding: 0.2em 0 0.2em 0.6em;
+    background-color: white;
+    border-bottom: 1px solid #4271ae;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #4271ae;
+    text-transform: uppercase;
+}
+
+div.note p.admonition-title
+{
+    color: #4271ae;
+    border-bottom: 1px solid #4271ae;
+}
+
+div.warning p.admonition-title,
+div.important p.admonition-title {
+    color: #f5871f;
+    border-bottom: 1px solid #f5871f;
+}
+
+div.hint p.admonition-title,
+div.tip p.admonition-title {
+    color: #718c00;
+    border-bottom: 1px solid #718c00;
+}
+
+div.caution p.admonition-title,
+div.attention p.admonition-title,
+div.danger p.admonition-title,
+div.error p.admonition-title {
+    color: #c82829;
+    border-bottom: 1px solid #c82829;
+}
+
+
+div.versioninfo {
+    margin: 1em 0 0 0;
+    border: 1px solid #eee;
+    background-color: #DDEAF0;
+    padding: 8px;
+    line-height: 1.3em;
+    font-size: 0.9em;
+}
+
+div.viewcode-block:target {
+    background-color: #f4debf;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 img.screenshot {
@@ -455,27 +550,13 @@ ul, ol {
 }
 
 pre {
-    background: #eee;
     padding: 7px 30px;
     margin: 15px -30px;
     line-height: 1.3em;
+    background: #fdfdfd;
+
 }
 
-dl pre, blockquote pre, li pre {
-    margin-left: -60px;
-    padding-left: 60px;
-}
-
-dl dl pre {
-    margin-left: -90px;
-    padding-left: 90px;
-}
-
-tt {
-    background-color: #ecf0f3;
-    color: #222;
-    /* padding: 1px 2px; */
-}
 
 tt.xref, a tt {
     background-color: #FBFBFB;
