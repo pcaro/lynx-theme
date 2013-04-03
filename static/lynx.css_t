@@ -526,7 +526,8 @@ div.viewcode-block:target {
     border-bottom: 1px solid #eee;
 }
 
-img.screenshot {
+img.screenshot, .figure img {
+    max-width: {{ theme_page_width - theme_sidebar_width - 30 |toint }}px;
 }
 
 tt.descname, tt.descclassname {
