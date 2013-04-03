@@ -421,7 +421,6 @@ div.viewcode-block:target {
 pre, tt {
     font-family: 'Ubuntu Mono', monospace;
     font-size: 0.9em;
-    line-height: 120%;
     white-space: pre-wrap;       /* css-3 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
     white-space: -pre-wrap;      /* Opera 4-6 */
@@ -432,8 +431,11 @@ pre, tt {
     -moz-border-radius: 4px;
     border-radius: 4px;
     white-space: pre;
-    white-space: pre-wrap;
     word-break: break-all;
+}
+
+table.highlighttable td {
+    padding: 0;
 }
 
 .literal {
@@ -447,6 +449,7 @@ pre a {
 
 td.linenos pre {
     padding: 0.5em 0;
+    min-width: 25px;
 }
 
 
@@ -613,10 +616,7 @@ ul, ol {
 }
 
 pre {
-    padding: 7px 30px;
-    line-height: 1.3em;
     background: #fdfdfd;
-
 }
 
 
