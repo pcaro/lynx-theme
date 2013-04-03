@@ -1,5 +1,5 @@
 =======================
- Pristine Sphinx Theme
+ Lynx Sphinx Theme
 =======================
 
 This is a theme for the Sphinx documentation generator (sphinx.pocoo.org).
