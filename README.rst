@@ -15,7 +15,7 @@ Follow these steps to use this theme in your project's documentation:
 
         sys.path.append(os.path.abspath('_themes'))
         html_theme_path = ['_themes']
-        html_theme = 'pristine'
+        html_theme = 'lynx'
 
 Options
 -------
