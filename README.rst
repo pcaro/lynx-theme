@@ -3,6 +3,7 @@
 =======================
 
 This is a theme for the Sphinx documentation generator (sphinx.pocoo.org).
+Is a mix of f6,  Fusion_Sphinx and mainly Pristine themes.
 
 Installation
 ============
