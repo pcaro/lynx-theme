@@ -595,7 +595,7 @@ table.footnote td {
 
 dl {
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 dl dd {
@@ -604,6 +604,10 @@ dl dd {
 
 dl dt {
     font-weight: bold;
+}
+
+dl.glossary dt {
+    font-size: inherit;
 }
 
 blockquote {
