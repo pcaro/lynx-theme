@@ -510,6 +510,9 @@ div.error p.admonition-title {
     border-bottom: 1px solid #c82829;
 }
 
+p.caption {
+    text-align: center;
+}
 
 div.versioninfo {
     margin: 1em 0 0 0;
