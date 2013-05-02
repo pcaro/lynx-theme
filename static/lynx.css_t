@@ -529,6 +529,10 @@ div.viewcode-block:target {
     border-bottom: 1px solid #eee;
 }
 
+div.figure {
+    text-align: center;
+}
+
 img.screenshot, .figure img {
     max-width: {{ theme_page_width - theme_sidebar_width - 30 |toint }}px;
 }
@@ -709,4 +713,9 @@ div.sphinxsidebarwrapper ul ul li{
 }
 div.sphinxsidebarwrapper ul ul li a{
     margin-left: 0;
+}
+
+p.caption {
+    font-size: 90%;
+    font-style: italic;
 }
